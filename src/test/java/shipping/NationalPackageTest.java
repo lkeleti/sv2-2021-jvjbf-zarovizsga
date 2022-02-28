@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class NationalPackageTest {
 
-
     @Test
     void testCreateNationalPackage(){
         Transportable nationalPackage = new NationalPackage(20,false);
@@ -24,5 +23,4 @@ class NationalPackageTest {
         assertTrue(nationalPackage.isBreakable());
         assertEquals(2000,nationalPackage.calculateShippingPrice());
     }
-
 }
